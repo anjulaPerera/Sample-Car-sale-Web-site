@@ -1,0 +1,236 @@
+body{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	background: url("images/homepage.jpg") no-repeat;	
+	background-size: cover;
+	height:100%;
+}
+body{
+	background-color:black;
+}
+
+a{
+	font-weight:500;
+	font-size:16px;
+	color:cdg0f1;
+	text-decoration:none;
+}
+
+header{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	padding:5px 10%;
+	height:75px;
+}
+header:hover{
+	background-color:#D5D8DC;
+}
+
+.logo{
+	height:65px;
+	position:absolute;
+	cursor:pointer;
+	top:10px;
+	left:20px;
+	background-color:transparent;
+}
+
+.reg_btn{
+	position:absolute;
+	top:25px;
+	right:25px;
+	color:white;
+	padding: 9px 25px;
+	background-color:rgba(0,136,169,1);
+	border:none;
+	cursor:pointer;
+	transition:all 0.3s ease 0s;
+	margin-left:20px;
+}
+
+.login_btn{
+	position:absolute;
+	top:25px;
+	right:130px;
+	color:white;
+	padding: 9px 25px;
+	background-color:rgba(0,136,169,1);
+	border:none;
+	cursor:pointer;
+	transition:all 0.3s ease 0s;
+	margin-left:5px;
+}
+
+
+.ad_btn{
+	position:absolute;
+	top:25px;
+	right:218px;
+	color:white;
+	padding: 9px 25px;
+	background-color:rgba(0,136,169,1);
+	border:none;
+	cursor:pointer;
+	transition:all 0.3s ease 0s;
+	margin-left:20px;
+}
+
+.member_btn{
+	position:absolute;
+	top:25px;
+	right:320px;
+	color:white;
+	padding: 9px 25px;
+	background-color:transparent;
+	border:none;
+	cursor:pointer;
+	transition:all 0.3s ease 0s;
+	margin-left:20px;
+}
+
+.carlist_btn{
+	position:absolute;
+	top:25px;
+	right:464px;
+	color:white;
+	padding: 9px 25px;
+	background-color:transparent;
+	border:none;
+	cursor:pointer;
+	transition:all 0.3s ease 0s;
+	margin-left:20px;
+}
+.carlist_btn:hover{
+	background-color:rgba(0,136,169,0.7);
+}
+
+.login_btn:hover{
+	background-color:rgba(0,136,169,0.7);
+}
+
+.reg_btn:hover{
+	background-color:rgba(0,136,169,0.7);
+}
+
+.ad_btn:hover{
+	background-color:rgba(0,136,169,0.7);
+}
+
+.member_btn:hover{
+	background-color:rgba(0,136,169,0.7);
+}
+
+
+.footerLeft{
+	font-family:sans-serif;
+	font-size:14px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	color: black;
+	text-align: left;
+		opacity:0.7;
+
+}
+
+.footerRight{
+	font-family:sans-serif;
+	font-size:14px;
+	position: fixed;
+	left: 0;
+	bottom: 18px;
+	width: 100%;
+	background-color: white;
+	color: black;
+	text-align: right;
+		opacity:0.7;
+
+}
+
+.searchBox h3{
+	text-align:center;
+	font-size:20px;
+	color:white;
+}
+
+.searchBox{
+	position:absolute;
+	background-color:transparent;
+	margin: auto;
+	border: 3px solid #BFC9CA;
+	padding: 10px;
+    top:200px;
+	left:519px;
+	
+}
+
+.searchBtn{
+	width:100%;
+	border:1px solid #FDFEFE;
+	outline:none;
+	background:none;
+	color:#FDFEFE;
+	font-style:bold;
+	font-size:20px;
+	padding:5px;
+	cursor:pointer;					
+	margin: 12px 0;
+	transition: 0.3s;
+	
+}
+
+.searchBtn:hover{
+	opacity: 0.6;
+}
+
+
+.selectBtn1{
+	opacity:0.9;
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 6px 10px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 15px;
+}
+.selectBtn1:hover::before {
+	border-color: white;
+	opacity:0.8
+}
+.selectBtn2{
+	opacity:0.9;
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 6px 10px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 15px;
+}
+.selectBtn2:hover::before {
+	border-color: white;
+	opacity:0.8
+}
+
+
+.logout_btn{
+	position:absolute;
+	bottom:50px;
+	right:25px;
+	color:white;
+	padding: 9px 25px;
+	background-color:transparent;
+	border:none;
+	cursor:pointer;
+	transition:all 0.3s ease 0s;
+	margin-left:20px;
+}
+
+.logout_btn:hover{
+	background-color:rgba(0,136,169,0.7);
+}

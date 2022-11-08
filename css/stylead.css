@@ -1,0 +1,174 @@
+
+body{
+	margin:0;					/*this*/
+	padding:0;					/*this*/	
+	font-family:sans-serif;
+	background: url("images/adform.jpg") no-repeat;		/*this*/
+	background-size: cover;
+}
+
+header{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	padding:5px 10%;
+	height:70px;
+}
+header:hover{
+	background-color:#D5D8DC;
+	opacity: 0.5;
+}
+
+.logo{
+	height:65px;
+	position:absolute;
+	cursor:pointer;
+	top:10px;
+	left:20px;
+	background-color:transparent;
+}
+
+.ad-form{
+	width:400px;
+	position:absolute;			
+	top:50%;
+	left:25%;
+	transform:translate(-50%,-50%);			
+	color:#FDFEFE ;
+}
+
+.ad-form h1{
+	position:relative;
+	float:left;					
+	font-size:30px;
+	margin-bottom:20px;
+	padding:10px 0;					
+}
+.ad-form p{
+	position:absolute;				
+	font-size:12px;
+	margin-bottom:5px;
+	top:48px;
+	padding:10px 0;					
+}
+
+.textbox{
+	width:100%;
+	overflow:hidden;				/*this*/
+	font-size:2px;
+	padding:5px 0;
+	margin:8px 0;
+	border-bottom: 1px solid #FDFEFE;			/*this*/
+}
+
+.textbox input{
+	border:none;
+	outline:none;
+	background:none;
+	color:#FDFEFE;
+	font-size:16px;
+	margin:0 10px;
+	width:80%
+}
+
+.textbox1{
+	width:100%;
+	overflow:hidden;				/*this*/
+	font-size:2px;
+	padding:5px 0;
+	margin:8px 0;
+	border-bottom: 1px solid #FDFEFE;			/*this*/
+}
+
+.textbox1 input{
+	border:none;
+	outline:none;
+	background:none;
+	color:#FDFEFE;
+	font-size:16px;
+	margin:0 10px;
+	width:80%;
+	height:40px;
+}
+
+
+.btn{
+	width:100%;
+	border:1px solid #FDFEFE;
+	outline:none;
+	background:none;
+	color:#FDFEFE;
+	font-style:bold;
+	font-size:20px;
+	padding:5px;
+	cursor:pointer;					/*this*/
+	margin: 12px 0;
+	opacity:1;
+	transition: 0.3s;
+}
+
+.btn:hover{
+	opacity: 0.5;
+}
+
+
+
+.footerLeft{
+	font-family:sans-serif;
+	font-size:14px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	color: black;
+	opacity:0.7;
+	text-align: left;
+}
+
+.footerRight{
+	font-family:sans-serif;
+	font-size:14px;
+	position: fixed;
+	left: 0;
+	bottom: 18px;
+	width: 100%;
+	background-color: white;
+	color: black;
+	text-align: right;
+	opacity:0.7;
+}
+
+
+::placeholder {
+  color: white;
+  opacity: 0.6; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+}
+
+
+.uploadBtn::-webkit-file-upload-button {
+  visibility: hidden;
+  
+}
+
+.uploadBtn::before {
+	content: 'Upload an Image of your Car';
+	opacity:0.7;
+	display: inline-block;
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 6px 10px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 15px;
+}
+.uploadBtn:hover::before {
+	border-color: gray;
+}
